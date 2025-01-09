@@ -1,0 +1,82 @@
+body {
+    margin: 0;
+    overflow: hidden;
+    background-color: rgb(255, 255, 255);
+
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+@keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+  
+@-moz-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+  
+@-webkit-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+  
+@-o-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+  
+@-ms-keyframes fadeIn {
+  0% { opacity: 0; }
+  100% { opacity: 1; }
+}
+
+.getin {
+    display: flex;
+    justify-content: center;
+    top: -50%;
+}
+
+.enterword {
+    font-family: "Roboto", sans-serif;
+    font-size: 300%;
+    text-align: center;
+}
+
+.enterword p {
+    color: #32ebdb;
+    font-weight: 800;
+}
+
+.PCERenter p {
+    font-family: "Noto Sans Thai", sans-serif;
+    color: #000;
+    font-size: 50%;
+    font-weight: 500;
+    margin-top: -30px;
+    margin-bottom: auto;
+}
+
+a {
+    color: #ffffff;
+    font-family: "Noto Sans Thai", sans-serif;
+    text-align: center;
+    text-decoration: none;
+    padding: 1% 1.5% ;
+    background-image: linear-gradient(to right,#5cdab0, #2dcece);
+    border-radius: 10px;
+}
+
+a:hover {
+    background-image: linear-gradient(to right,#c5c5c5, #b4b4b4);
+}

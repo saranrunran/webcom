@@ -1,0 +1,575 @@
+.roboto-regular {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.roboto-regular-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: italic;
+}
+
+.roboto-medium {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: normal;
+}
+
+.roboto-medium-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 500;
+  font-style: italic;
+}
+.roboto-black-italic {
+  font-family: "Roboto", sans-serif;
+  font-weight: 900;
+  font-style: italic;
+}
+
+body {
+    color: white;
+}
+
+body {
+  margin: 0;
+}
+
+#navbar {
+  background-color: #F8F8F8;
+  position: fixed;
+  top: -50%;
+  width: 100%;
+  display: flex;
+  transition: top 0.3s;
+  font-family: "Noto Sans Thai", sans-serif;
+  z-index: 1;
+}
+
+#navbar img {
+  width: 4%;
+  float: left;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 3%;
+}
+
+#navbar span {
+  float: left;
+  color: #000000;
+  float: left;
+  text-align: left;
+  font-size: 70%;
+  margin-top: auto;
+  margin-bottom: auto;
+  margin-left: 1%;
+  margin-right: 33.15%;
+  font-weight: 500;
+}
+
+#navbar a{
+  float: right;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 1.3%;
+  text-decoration: none;
+  font-size: 85%;
+}
+
+#navbar a:hover {
+  background-color: #42e9d3;
+  background-image: linear-gradient(to right, #42e9d3, #16c9b1);
+  color: #ffffff;
+}
+
+img {
+    object-fit: cover;
+    width: 100%;
+}
+.fade-in-image {
+    animation: fadeIn 2s;
+    -webkit-animation: fadeIn 2s;
+    -moz-animation: fadeIn 2s;
+    -o-animation: fadeIn 2s;
+    -ms-animation: fadeIn 2s;
+    position: relative;
+  }
+  @keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-moz-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-webkit-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-o-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  @-ms-keyframes fadeIn {
+    0% { opacity: 0; }
+    100% { opacity: 1; }
+  }
+  
+  p {
+    color: black;
+    font-size: 90%;
+    text-align: center;
+    margin: 5% 0% 5%;
+    font-family: "Noto Sans Thai", sans-serif;
+  }
+
+  .back-PCER {
+    width: 100%;
+    background-color: white;
+    padding-top: 5%;
+    padding-bottom: 5%;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .PCER {
+    color: white;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+  }
+
+  .P {
+    position: relative;
+    font-size: 800%;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#39e4b6, #17c49e);
+    text-align: center;
+    width: 12%;
+    margin-right: 2%;
+    object-fit: cover;
+    display: block;
+  }
+
+  .P:hover .hiddent {
+    height: 100%;
+  }
+
+  .hiddent {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #acacac;
+    overflow: hidden;
+    width: 100%;
+    height: 0%;
+    transition: 1s ease;
+  }
+
+  .hiddent p {
+    font-size: 10%;
+    text-align: center;
+    text-decoration: none;
+    color: white;
+    font-family: "Noto Sans Thai", sans-serif;
+    margin-top: 30%;
+    margin-inline: 5%;
+  }
+
+  .C {
+    position: relative;
+    font-size: 800%;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#39e4b6, #17c49e);
+    text-align: center;
+    width: 12%;
+    margin-right: 2%;
+    object-fit: cover;
+  }
+  .C:hover .hiddent {
+    height: 100%;
+  }
+
+  .E {
+    position: relative;
+    font-size: 800%;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#39e4b6, #17c49e);
+    text-align: center;
+    width: 12%;
+    margin-right: 2%;
+    object-fit: cover;
+  }
+
+  .E:hover .hiddent {
+    height: 100%;
+  }
+
+  .R {
+    position: relative;
+    font-size: 800%;
+    font-family: "Roboto", sans-serif;
+    background-image: linear-gradient(#39e4b6, #17c49e);
+    text-align: center;
+    width: 12%;
+    object-fit: cover;
+  }
+
+  .R:hover .hiddent {
+    height: 100%;
+  }
+
+  .tualek {
+    font-family: "Roboto", sans-serif;
+    font-size: 10%;
+    line-height: 3;
+    display: flex;
+    justify-content: center;
+  }
+
+  h1 {
+    color: black;
+    font-family: "Roboto", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: 10%;
+  }
+
+  h2 {
+    color: #1FCC9F;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: 500;
+    text-align: center;
+    margin-top: -1%;
+  }
+
+  #count-building {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  #count-building p {
+    color: black;
+    font-size: 400%;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: 500;
+  }
+
+  .blocktool {
+    width: 10%;
+  }
+
+  #count-tool {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  #count-tool p {
+    color: black;
+    font-size: 400%;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: 500;
+  }
+
+  #count-tool2 p {
+    color: black;
+    font-size: 400%;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-weight: 500;
+  }
+
+  .lek-room {
+    color: black;
+    font-family: "Noto Sans Thai", sans-serif;
+    font-size: 100%;
+    text-align: center;
+    position: relative;
+  }
+
+  * {box-sizing: border-box}
+  .mySlides1{display: none}
+  .mySlides2 {display: none;}
+  
+  /* Slideshow container */
+  .slideshow-container {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(105, 105, 105, 0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: #747474;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .dot:active, .dot:hover {
+    background-color: #42e9d3;
+  }
+  
+  /* Fading animation */
+  .fade {
+    animation-name: fade;
+    animation-duration: 1.5s;
+  }
+  
+  @keyframes fade {
+    from {opacity: .4} 
+    to {opacity: 1}
+  }
+  
+  /* On smaller screens, decrease text size */
+  @media only screen and (max-width: 300px) {
+    .prev, .next,.text {font-size: 11px}
+  }
+
+  .mySlide {
+    display: none
+  }
+  
+  /* Slideshow container */
+  .slideshowcontainer {
+    max-width: 1000px;
+    position: relative;
+    margin: auto;
+  }
+  
+  /* Next & previous buttons */
+  .prev, .next {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    width: auto;
+    padding: 16px;
+    margin-top: -22px;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    transition: 0.6s ease;
+    border-radius: 0 3px 3px 0;
+    user-select: none;
+  }
+  
+  /* Position the "next button" to the right */
+  .next {
+    right: 0;
+    border-radius: 3px 0 0 3px;
+  }
+  
+  /* On hover, add a black background color with a little bit see-through */
+  .prev:hover, .next:hover {
+    background-color: rgba(105, 105, 105, 0.8);
+  }
+  
+  /* The dots/bullets/indicators */
+  .dot {
+    cursor: pointer;
+    height: 7px;
+    width: 7px;
+    margin: 0 2px;
+    background-color: #747474;
+    border-radius: 50%;
+    display: inline-block;
+    transition: background-color 0.6s ease;
+  }
+  
+  .active, .dot:hover {
+    background-color: #42e9d3;
+  }
+
+  .vdopromote {
+    display: flex;
+    justify-content: center;
+  }
+
+  .vdopromote img {
+    width: 75%;
+  }
+
+  .activity {
+    display: flex;
+    justify-content: center;
+  }
+
+  #activity h1 {
+    font-family: "Noto Sans Thai", sans-serif;
+    color: #ffffff;
+    width: 100%;
+    background-image: linear-gradient(to right, #42e9d3,#21b5c0);
+    padding: 0.5%;
+    text-align: center;
+    text-decoration: none;
+    font-weight: 400;
+  }
+
+  #activity p {
+    width: 100%;
+    background-image: linear-gradient(to right, #42e9d3,#21b5c0);
+    padding: 0.1%;
+    margin-top: -1.5%;
+  }
+
+  #avtblock {
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+  }
+
+  .avt {
+    width: 25%;
+    background-color: #747474;
+    text-align: center;
+  }
+
+  .avt a {
+    font-size: 80%;
+    color: #ffffff;
+    background-color: #747474;
+    font-family: "Noto Sans Thai", sans-serif;
+    text-decoration: none;
+  }
+
+  .avt a:hover {
+    text-decoration: underline;
+  }
+
+  .seemore {
+    display: flex;
+    justify-content: center;
+  }
+
+  .seemore a {
+    font-size: larger;
+    font-weight: 450;
+    color: #ffffff;
+    text-align: center;
+    text-decoration: none;
+    background-color: #42e9d3;
+    background-image: linear-gradient(to right, #42e9d3,#21b5c0);
+    padding: 1.5% 2% ;
+    font-family: "Roboto", sans-serif;
+    top: -50%;
+  }
+
+  .seemore a:hover {
+    background-image: linear-gradient(to right, #989c9c,#989c9c);
+  }
+
+
+#contact {
+  display: flex;
+  justify-content: space-between;
+  /*text-align: center;*/
+}
+.contact {
+  display: flex;
+  justify-content: space-between;
+  background-image: linear-gradient(to right, #42e9d3,#21b5c0);
+  margin-top: 0;
+}
+
+#conall {
+  display: flex;
+  justify-content: space-between;
+}
+
+.conall {
+  display: flex;
+}
+
+.const {
+  /*float: left;*/
+  margin: auto;
+  margin-top: 0;
+}
+
+.const p {
+  color: #ffffff;
+  text-align: start;
+}
+
+.const a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.const a:hover {
+  text-decoration: underline;
+  color:#24a06c;
+}
+
+.const img {
+  width: 4%;
+  margin-bottom: -1.5%;
+}
+
+.connd p {
+  color: #ffffff;
+  text-align: start;
+}
+
+.connd a {
+  color: #ffffff;
+  text-decoration: none;
+}
+
+.connd a:hover {
+  color: #24a06c;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.connd {
+  margin-top: 0;
+}
+
+.conrd {
+  vertical-align: top;
+  margin : auto;
+  margin-top: 0%;
+}
+
+.conrd p {
+  color: white;
+  text-align: start;
+}
